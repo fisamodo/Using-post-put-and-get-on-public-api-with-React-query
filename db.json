@@ -1,0 +1,24 @@
+{
+  "Users": [
+    {
+      "id": 1,
+      "name": "Ivan",
+      "details": "Student"
+    },
+    {
+      "name": "Ante",
+      "details": "Radnik godine",
+      "id": 2
+    },
+    {
+      "name": "Josip",
+      "details": "Again",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "name": "Mate",
+      "details": "Mali"
+    }
+  ]
+}

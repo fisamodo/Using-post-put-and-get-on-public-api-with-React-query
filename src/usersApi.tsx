@@ -13,10 +13,5 @@ export const getUsers = () => api.get("/users").then((res) => res.data);
 export const getUser = (id: number) =>
   api.get(`/users/${id}`).then((res) => res.data);
 
-export const updateUser = ({
-  id,
-  ...updateUser
-}: {
-  id: any;
-  updateUser: any;
-}) => api.put(`/users/${id}`, updateUser).then((res) => res.data);
+export const updateUser = ({ id, ...data }: { id: any; data: any }) =>
+  api.put(`/users/${id}`, data);
